@@ -19,6 +19,7 @@
     border: 0px;
     border-radius: 5px;
     padding: 18px 35px;
+    margin-top: 0px;
 
 }
 nav {
@@ -37,5 +38,40 @@ nav a{
     text-align: right;
     text-decoration: none;
     color: var(--Dark-02, #474747);
+    
+}
+
+
+.banner{
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 30px 30px 30px 150;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile-img{
+    height: 518px; width: 420px;
+}
+.greetings{
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.profile-name{
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.profile-description{
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    margin top: 20px;
+    max-width: 585px;
+    margin-bottom: 30px;
     
 }
