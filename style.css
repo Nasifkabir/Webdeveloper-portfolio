@@ -1,17 +1,19 @@
-.nav-title{
+.nav-title {
     font-family: 'Open Sans', sans-serif;
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
 }
-.orange{
+
+.orange {
     color: #FD6E0A;
     font-family: Open Sans;
     font-size: 45px;
     font-weight: 800;
 }
-.btn-orange{
+
+.btn-orange {
     background: #FD6E0A;
     color: var(--White-Color, #FFF);
     font-family: Open Sans;
@@ -22,27 +24,31 @@
     margin-top: 0px;
 
 }
+
 nav {
     display: flex;
     justify-content: space-around;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-align: right;
     text-decoration: none;
     color: var(--Dark-02, #474747);
-    
+
 }
 
 
-.banner{
+.banner {
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -51,15 +57,19 @@ nav a{
     align-items: center;
     justify-content: space-between;
 }
-.banner .profile-img{
-    height: 518px; width: 420px;
+
+.banner .profile-img {
+    height: 518px;
+    width: 420px;
 }
-.greetings{
+
+.greetings {
     color: var(--Dark-02, #474747);
     font-size: 45px;
     margin-bottom: 5px;
 }
-.profile-name{
+
+.profile-name {
     color: var(--Dark-01, #181818);
     font-size: 85px;
     font-style: normal;
@@ -67,11 +77,32 @@ nav a{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.profile-description{
+
+.profile-description {
     color: var(--Dark-03, #757575);
     font-size: 18px;
     margin top: 20px;
     max-width: 585px;
     margin-bottom: 30px;
-    
+
+}
+
+.section-header {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.section{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
 }
